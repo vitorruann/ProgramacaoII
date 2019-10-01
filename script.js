@@ -18,3 +18,6 @@ function dividir() {
     var N2 = +document.getElementById('N2').value;
     document.getElementById('resultado').value = N1/N2;
 }
+function teste() {
+    alert(a);
+}
