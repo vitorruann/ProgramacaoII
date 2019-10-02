@@ -16,9 +16,15 @@ main {
     padding: 20px;
     color: white;
 }
-#central-texto {
-    text-align: center;
+.central-input{
+    margin: 0 auto;
 }
 #left-texto {
     text-align: left;
+}
+input {
+    border-radius: 10px;
+}
+.botao {
+    width: 40px;
 }
