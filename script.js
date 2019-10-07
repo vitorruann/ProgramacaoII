@@ -1,20 +1,61 @@
 function somar() {
-    var N1 = +document.getElementById('N1').value;
-    var N2 = +document.getElementById('N2').value;
-    document.getElementById('resultado').value = N1+N2;
+    var display = document.getElementById('display').value;
+    document.getElementById('display').value = display + "+";
 }
 function subtrair() {
-    var N1 = +document.getElementById('N1').value;
-    var N2 = +document.getElementById('N2').value;
-    document.getElementById('resultado').value = N1-N2;
+    var display = document.getElementById('display').value;
+    document.getElementById('display').value = display + "-";
 }
 function multiplicar() {
-    var N1 = +document.getElementById('N1').value;
-    var N2 = +document.getElementById('N2').value;
-    document.getElementById('resultado').value = N1*N2;
+    var display = document.getElementById('display').value;
+    document.getElementById('display').value = display + "*";
 }
 function dividir() {
-    var N1 = +document.getElementById('N1').value;
-    var N2 = +document.getElementById('N2').value;
-    document.getElementById('resultado').value = N1/N2;
+    var display = document.getElementById('display').value;
+    document.getElementById('display').value = display + "/";
+}
+function addb1() {
+    var display = document.getElementById('display').value;
+    document.getElementById('display').value = display + 1;
+}
+function addb2() {
+    var display = document.getElementById('display').value;
+    document.getElementById('display').value = display + 2;
+}
+function addb3() {
+    var display = document.getElementById('display').value;
+    document.getElementById('display').value = display + 3;
+}
+function addb4() {
+    var display = document.getElementById('display').value;
+    document.getElementById('display').value = display + 4;
+}
+function addb5() {
+    var display = document.getElementById('display').value;
+    document.getElementById('display').value = display + 5;
+}
+function addb6() {
+    var display = document.getElementById('display').value;
+    document.getElementById('display').value = display + 6;
+}
+function addb7() {
+    var display = document.getElementById('display').value;
+    document.getElementById('display').value = display + 7;
+}
+function addb8() {
+    var display = document.getElementById('display').value;
+    document.getElementById('display').value = display + 8;
+}
+function addb9() {
+    var display = document.getElementById('display').value;
+    document.getElementById('display').value = display + 9;
+}
+function addb0() {
+    var display = document.getElementById('display').value;
+    document.getElementById('display').value = display + 0;
+}
+function resultado() {
+    var display = document.getElementById('display').value;
+
+    document.getElementById('display').value = 0 ;
 }
